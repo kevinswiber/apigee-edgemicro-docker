@@ -17,7 +17,7 @@ docker build -t apigee/edgemicro:2.1.0-beta .
 This will hold config files for edgemicro.
 
 ```
-$ mkdir config && export EDGEMICRO_DIR=$_
+$ mkdir config && export EDGEMICRO_DIR=$(pwd)/config
 ```
 
 ### Step 2: Set environment variables related to your deployment
